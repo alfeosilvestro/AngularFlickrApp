@@ -22,7 +22,7 @@ A simple application in AngularJS to fletch images from Flickr.
 - JQuery
 
 ## Usage
-```
+
 
 ### Install local
 ```
@@ -30,6 +30,7 @@ $ bower install
 $ npm install
 
 ```
+
 ### Configuration
 ```
 Gulpfile.js -> Automated tasks

@@ -106,7 +106,7 @@ A simple application in AngularJS to fletch images from Flickr.
 - JQuery
 
 ## Usage
-```
+
 
 ### Install local
 ```
@@ -114,7 +114,9 @@ $ bower install
 $ npm install
 
 ```
+
 ### Configuration
+
 ```
 Gulpfile.js -> Automated tasks
 Packege.json -> Dependencies
@@ -124,6 +126,7 @@ bower.json -> Module Dependencies
 ```
 
 Gulpfile.js tasks
+
 - When there are changes in HTML then browser it reload automatic
 - Look for errors in js scripts and show its
 - Developer server config
@@ -133,6 +136,7 @@ Gulpfile.js tasks
 
 
 ### Unit Test with karma
+
 ```
 
 # Install Karma:
@@ -150,14 +154,16 @@ $ sudo npm install --save-dev angular-mocks
 $ gulp unitTest
 
 ```
+
 ### Launch mode
+
 ```
 Development -> $ gulp
 
 http://localhost:8080/
 ```
 
-```
+
 ### Production Deployment
 ```
 Deploy either with ForeverJs to monitor and auto restart in case of errors
