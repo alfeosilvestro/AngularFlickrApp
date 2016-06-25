@@ -4,18 +4,17 @@ A simple service application in NodeJs to fletch public images from Flickr.
 
 ##The folder structure
 ```
-  /webservice
-      /configurations
-      /controllers    
-          /base
-      /models
-      /public
-      /views
-      /views
-  	  /content
-  	  	/css
-  	  	/images
-  	  	/lib	    
+/webservice
+    /configurations
+    /controllers    
+        /base
+    /models
+    /public
+      /stylesheets
+      /images
+      /javascripts
+    /views
+    
 ```
 
 ## Dependencies

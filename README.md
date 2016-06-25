@@ -10,12 +10,11 @@ A simple service application in NodeJs to fletch public images from Flickr.
           /base
       /models
       /public
+        /stylesheets
+        /images
+        /javascripts
       /views
-      /views
-  	  /content
-  	  	/css
-  	  	/images
-  	  	/lib	    
+
 ```
 
 ## Dependencies
