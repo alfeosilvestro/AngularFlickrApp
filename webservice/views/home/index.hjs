@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon"
+      type="image/png"
+      href="./favicon.ico" />
+  </head>
+  <body>
+    <div>
+        <h2>
+            Flickr Service <img src="images/finecloud_logo.png" />
+        </h2>
+    </div>
+    <h4 class='{{ subtitletheme }}'>{{ subtitle }}</h5>
+    <p class='{{ messagetheme }}'>{{ message }}</p>
+  </body>
+</html>

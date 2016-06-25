@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+    <title>Flickr Photos</title>
+    <link href="app/content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="app/content/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="app/content/css/flickrStyle.css" rel="stylesheet" />
+</head>
+<body ng-app="flickrApp">
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand " >
+                    Photos Flickr
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Note that AngularJS 1.2+ now has a built-in ng-animation direction. Left in animated-view to show a
+         custom directive -->
+    <div ng-cloak ng-view></div>
+
+
+    <div id="footer">
+        <div class="navbar navbar-fixed-bottom">
+            <div class="navbar-inner">
+                <div class="container">
+                    <footer>
+
+                   </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vendor Libs: jQuery only used for Bootstrap functionality -->
+    <script src="app/content/lib/angular.js"></script>
+    <script src="app/content/lib/angular-route.js"></script>
+    <script src="app/content/lib/angular-resource.js"></script>
+    <script src="app/content/lib/jquery.js"></script>
+
+    <!-- UI Libs -->
+    <script src="app/content/lib/bootstrap.js"></script>
+
+
+    <!-- App libs -->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/controllers.js"></script>
+    <script src="app/services/provider.js"></script>
+    <!--<script src="app/directives/animatedView.js"></script>-->
+</body>
+</html>

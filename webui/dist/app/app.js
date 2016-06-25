@@ -1,0 +1,1 @@
+!function(){"use strict"function config($locationProvider,$routeProvider,FlickrProvider){$locationProvider.html5Mode(!0),$routeProvider.when("/",{controller:"PhotosController",templateUrl:"/app/partials/photos.html"}).otherwise({redirectTo:"/"}();
