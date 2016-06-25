@@ -26,7 +26,6 @@ A simple service application in NodeJs to fletch public images from Flickr.
 - supertest
 
 ## Usage
-```
 
 ### Install local
 ```
@@ -41,11 +40,14 @@ route_config.js -> route configuration
 ```
 
 Nodemon
+
+```
 - When there are changes in this project, reload application automatically
 - Test application with supertest
-
+```
 
 ### Unit Test with supertest
+
 ```
 
 # Install supertest:
@@ -55,7 +57,9 @@ $ [sudo] npm install supertest --save-dev
 $ nodemon
 
 ```
+
 ### Launch mode
+
 ```
 Development -> $ nodemon
 
@@ -64,18 +68,18 @@ http://localhost:3000/
 
 # Set Environment of Application from OS level:
 
+```
+
 linux & mac: export NODE_ENV=production
 windows: set NODE_ENV=production
 
-
 ```
+
 ### Production Deployment
+
 ```
 Deploy either with ForeverJs to monitor and auto restart in case of errors
 To automate production deployment and monitoring, we can use strong-pm
-```
-
-```
 ```
 
 # AngularJS + Flickr (THE CLIENT APP)
@@ -159,5 +163,3 @@ http://localhost:8080/
 Deploy either with ForeverJs to monitor and auto restart in case of errors
 To automate production deployment and monitoring, we can use strong-pm
 ```
-
-
