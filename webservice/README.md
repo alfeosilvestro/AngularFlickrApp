@@ -14,7 +14,7 @@ A simple service application in NodeJs to fletch public images from Flickr.
       /images
       /javascripts
     /views
-    
+
 ```
 
 ## Dependencies
@@ -74,5 +74,4 @@ windows: set NODE_ENV=production
 
 ```
 Deploy either with ForeverJs to monitor and auto restart in case of errors
-To automate production deployment and monitoring, we can use strong-pm
 ```

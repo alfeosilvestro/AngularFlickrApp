@@ -78,7 +78,6 @@ windows: set NODE_ENV=production
 
 ```
 Deploy either with ForeverJs to monitor and auto restart in case of errors
-To automate production deployment and monitoring, we can use strong-pm
 ```
 
 # AngularJS + Flickr (THE CLIENT APP)
@@ -166,5 +165,4 @@ http://localhost:8080/
 ### Production Deployment
 ```
 Deploy either with ForeverJs to monitor and auto restart in case of errors
-To automate production deployment and monitoring, we can use strong-pm
 ```
